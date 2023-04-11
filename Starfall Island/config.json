@@ -18,6 +18,17 @@
 			 },
 			 {
 				"Name": "IncludeDir2",
+				"DisplayName": "Ouranos Start Position",
+				"Description": [
+				   "Choose where Sonic starts off in Chapter 5/Ouranos.",
+				],
+				"Type": "OuranosGeddit",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "Tower_start"
+			 },
+			 {
+				"Name": "IncludeDir3",
 				"DisplayName": "Kronos/Rhea skybox",
 				"Description": [
 				   "Choose which skybox is used for Chapter 1/Kronos and Chapter4/Rhea.",
@@ -28,7 +39,7 @@
 				"DefaultValue": "w01r3_final"
 			 },
 			 {
-				"Name": "IncludeDir3",
+				"Name": "IncludeDir4",
 				"DisplayName": "Ouranos skybox",
 				"Description": [
 				   "Choose which skybox is used for Chapter 5/Ouranos.",
@@ -59,6 +70,31 @@
 			 "Value": "Story",
 			 "Description": [
 				"Starts you off in Rhea's default starting point, uses the same Chaos Emerald locations as Ouranos, has no portals so they can't be unlocked, and does not have Giganto present anywhere.  Recommdned for first run."
+			 ]
+		   },
+       ],
+	   "OuranosGeddit": 
+	   [
+ 
+		  {
+			 "DisplayName": "Rhea Tower",
+			 "Value": "Tower_start",
+			 "Description": [
+				"Starts you off at the final Rhea tower, creating continuity from the opening cutscene of Ouranos."
+			 ]
+		  },
+				{
+			 "DisplayName": "Original",
+			 "Value": "Ouranos_start",
+			 "Description": [
+				"Starts you off in the same spot that vanilla Ouranos does."
+			 ]
+		   },
+				{
+			 "DisplayName": "Kronos start",
+			 "Value": "Kronos_start",
+			 "Description": [
+				"Starts you off at the starting point of Kronos."
 			 ]
 		   },
        ],
